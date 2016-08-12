@@ -1,7 +1,4 @@
 package com.rrkaige.leetcode;
-
-import java.util.Scanner;
-
 /**
  * Example:
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -45,8 +42,6 @@ public class AddTwoNumbers {
     } 
     
 	public static void main(String[] args) {
-    	Scanner in = new Scanner(System.in);
-    	AddTwoNumbers s = new AddTwoNumbers();
-        System.out.println("Not test case");
+    	System.out.println("Not test case");
 	}
 }

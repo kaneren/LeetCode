@@ -1,7 +1,6 @@
 package com.rrkaige.leetcode;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * Example:
@@ -27,14 +26,8 @@ public class TwoSum {
     }
     
     public static void main(String[] args) {
-    	Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] nums = new int[n];
-        for (int i = 0; i < nums.length; ++i) {
-            nums[i] = in.nextInt();
-        }
-        int target = in.nextInt();
-        
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
     	int[] res = twoSum(nums, target);
     	System.out.println(Arrays.toString(res));
     }
