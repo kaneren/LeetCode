@@ -25,8 +25,6 @@ public class ReverseInteger {
     }
     
 	public static void main(String[] args) {
-		int x = 123;
-		int y = -123;
-		System.out.println(reverse(x)+","+reverse(y));
+		System.out.println(reverse(123));
 	}
 }
