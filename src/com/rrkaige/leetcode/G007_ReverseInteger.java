@@ -5,7 +5,7 @@ package com.rrkaige.leetcode;
  * @author kaneren
  *
  */
-public class ReverseInteger {
+public class G007_ReverseInteger {
     public static int reverse(int x) {
     	if(x == 0 || x == Integer.MIN_VALUE) {
     		return 0;

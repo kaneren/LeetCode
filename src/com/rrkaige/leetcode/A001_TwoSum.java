@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author kaneren
  *
  */
-public class TwoSum {
+public class A001_TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         for(int i = 0; i < nums.length-1; i++){

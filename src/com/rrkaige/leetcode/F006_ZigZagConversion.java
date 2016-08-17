@@ -5,7 +5,7 @@ package com.rrkaige.leetcode;
  * @author kaneren
  *
  */
-public class ZigZagConversion {
+public class F006_ZigZagConversion {
     public static String convert(String s, int numRows) {
         if(numRows == 1) {
         	return s;

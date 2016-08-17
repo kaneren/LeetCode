@@ -4,27 +4,24 @@ package com.rrkaige.leetcode;
  * @author kaneren
  *
  */
-public class PalindromeNumber {
+public class H009_PalindromeNumber2 {
     public static boolean isPalindrome(int x) {
     	if(x == 0) {
     		return true;
     	}
-    	if(x < 0 || x % 10 == 0) {
+    	if(x < 0) {
     		return false;
     	}
-        int a = 0;
-        while(a <= x) {
-        	int b = x;
-        	a = a *10 + x % 10;
-        	x /= 10;
-        	if(a == x || a == b) {
-        		return true;
-        	}
+        long xx = x;
+        long a = 0;
+        while(xx > 0) {
+            a = a * 10 + xx % 10;
+            xx /= 10;
         }
-        return false;
+        return a == x;
     }
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome(120));
+		System.out.println(isPalindrome(1221));
 	}
 }

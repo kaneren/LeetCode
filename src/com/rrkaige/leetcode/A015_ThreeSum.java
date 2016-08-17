@@ -14,7 +14,7 @@ import java.util.List;
  * @author kaneren
  *
  */
-public class ThreeSum {
+public class A015_ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         int len = nums.length;

@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author kaneren
  *
  */
-public class ThreeSumClosest {
+public class A016_ThreeSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
         int len = nums.length;
         Arrays.sort(nums);

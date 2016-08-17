@@ -15,7 +15,7 @@ import java.util.List;
  * @author kaneren
  *
  */
-public class FourSum {
+public class A018_FourSum {
     public static List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         int len = nums.length;
