@@ -16,8 +16,9 @@ public class C003_LongestSubstringWithoutRepeatingCharacters2 {
         	prev[i] = -1;
         }
         for(int i = 0; i < s.length(); i++) {
-            if(prev[s.charAt(i)] >= left)
-                left = prev[s.charAt(i)] + 1;
+            if(prev[s.charAt(i)] >= left) {
+            	left = prev[s.charAt(i)] + 1;
+            }
             prev[s.charAt(i)] = i;
             if(res < i - left + 1) {
             	res = i - left + 1;
